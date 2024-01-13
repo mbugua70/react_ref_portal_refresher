@@ -8,3 +8,7 @@ REFS AND PORTALS
 //NB: - Whenever a ref changes the component function does not reExercute unlike the state.
       - state should be used whenever you have values that should be directly be shown on the UI
       - should not use state for values that are behind the scenes.
+
+// PORTALS
+- detaching DOM rendering from jsx using the PORTALS
+- we will use createPortal from react-dom , createPortal () takes two arquements one being, the code you want to be relocated and the element you want your code to be kept
